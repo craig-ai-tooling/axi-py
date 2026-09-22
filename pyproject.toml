@@ -1,0 +1,8 @@
+# Nothing here is packaged or installed: each tool vendors axi.py. This file only
+# configures ruff, with the same selection as the tools, so a vendored copy lints
+# clean in every one of them.
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E9", "F"]
